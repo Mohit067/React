@@ -1,0 +1,17 @@
+img {
+  width: 100%;        /* pura container cover karega */
+  max-width: 600px;   /* zyada bada na ho */
+  height: auto;       /* aspect ratio maintain rahe */
+  display: block;     /* beech me aa jaye */
+  margin: 20px auto;  /* upar niche aur center */
+  border-radius: 10px; /* thoda rounded corner */
+  object-fit: cover;   /* crop karke fit kare */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* halka shadow */
+}
+
+.nav{
+    height: 300px;
+    width: 300px;
+    border: 1px solid wheat;
+    
+}
