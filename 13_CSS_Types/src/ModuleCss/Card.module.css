@@ -1,0 +1,11 @@
+.div{
+    background-color: #696868;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
