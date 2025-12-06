@@ -1,0 +1,932 @@
+[
+  {
+    "question": "What does MERN stand for?",
+    "options": [
+      "MongoDB, Express, React, Node",
+      "MySQL, Express, React, Node",
+      "MongoDB, Electron, React, Node",
+      "MongoDB, Express, Redux, Node"
+    ],
+    "answer": "MongoDB, Express, React, Node"
+  },
+  {
+    "question": "Which library is used for UI in MERN stack?",
+    "options": [
+      "Angular",
+      "Vue",
+      "React",
+      "Svelte"
+    ],
+    "answer": "React"
+  },
+  {
+    "question": "Which database is used in MERN?",
+    "options": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Firebase"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "Which runtime runs JavaScript on the server?",
+    "options": [
+      "Deno",
+      "Node.js",
+      "Bun",
+      "Browser"
+    ],
+    "answer": "Node.js"
+  },
+  {
+    "question": "Which framework is used to build APIs in MERN?",
+    "options": [
+      "React",
+      "Express",
+      "Next.js",
+      "Bootstrap"
+    ],
+    "answer": "Express"
+  },
+  {
+    "question": "Which hook is used for state in React?",
+    "options": [
+      "useRef",
+      "useState",
+      "useEffect",
+      "useMemo"
+    ],
+    "answer": "useState"
+  },
+  {
+    "question": "Which hook is used for side effects?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useEffect",
+      "useContext"
+    ],
+    "answer": "useEffect"
+  },
+  {
+    "question": "Which command creates a React app?",
+    "options": [
+      "npm init react-app",
+      "npx create-react-app",
+      "npm create react",
+      "react new app"
+    ],
+    "answer": "npx create-react-app"
+  },
+  {
+    "question": "Which symbol is used for JSX expressions?",
+    "options": [
+      "{}",
+      "[]",
+      "()",
+      "<>"
+    ],
+    "answer": "{}"
+  },
+  {
+    "question": "Which HTTP method is used to create data?",
+    "options": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE"
+    ],
+    "answer": "POST"
+  },
+  {
+    "question": "Which HTTP method is used to update data?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "FETCH"
+    ],
+    "answer": "PUT"
+  },
+  {
+    "question": "Which HTTP method deletes data?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "PUT",
+      "POST"
+    ],
+    "answer": "DELETE"
+  },
+  {
+    "question": "Which status code means success?",
+    "options": [
+      "404",
+      "500",
+      "200",
+      "301"
+    ],
+    "answer": "200"
+  },
+  {
+    "question": "Which status code means Not Found?",
+    "options": [
+      "200",
+      "201",
+      "404",
+      "403"
+    ],
+    "answer": "404"
+  },
+  {
+    "question": "Which database command is used to insert in MongoDB?",
+    "options": [
+      "add()",
+      "insert()",
+      "insertOne()",
+      "push()"
+    ],
+    "answer": "insertOne()"
+  },
+  {
+    "question": "Which database command finds data in MongoDB?",
+    "options": [
+      "get()",
+      "select()",
+      "find()",
+      "fetch()"
+    ],
+    "answer": "find()"
+  },
+  {
+    "question": "Which database command updates data in MongoDB?",
+    "options": [
+      "modify()",
+      "updateOne()",
+      "change()",
+      "set()"
+    ],
+    "answer": "updateOne()"
+  },
+  {
+    "question": "Which database command removes data in MongoDB?",
+    "options": [
+      "removeOne()",
+      "delete()",
+      "deleteOne()",
+      "drop()"
+    ],
+    "answer": "deleteOne()"
+  },
+  {
+    "question": "Which package manages environment variables?",
+    "options": [
+      "config",
+      "dotenv",
+      "env",
+      "node-env"
+    ],
+    "answer": "dotenv"
+  },
+  {
+    "question": "Which middleware parses JSON in Express?",
+    "options": [
+      "bodyParser",
+      "express.json()",
+      "jsonParser",
+      "req.json()"
+    ],
+    "answer": "express.json()"
+  },
+  {
+    "question": "Which protocol is used by REST APIs?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "TCP"
+    ],
+    "answer": "HTTP"
+  },
+  {
+    "question": "Which header is used to send JSON?",
+    "options": [
+      "Accept",
+      "Authorization",
+      "Content-Type",
+      "Cache-Control"
+    ],
+    "answer": "Content-Type"
+  },
+  {
+    "question": "Which tool is used to test APIs?",
+    "options": [
+      "Postman",
+      "Photoshop",
+      "Figma",
+      "Illustrator"
+    ],
+    "answer": "Postman"
+  },
+  {
+    "question": "Which React prop is used to pass data?",
+    "options": [
+      "state",
+      "props",
+      "params",
+      "data"
+    ],
+    "answer": "props"
+  },
+  {
+    "question": "Which React concept avoids unnecessary re-render?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useRef",
+      "useEffect"
+    ],
+    "answer": "useMemo"
+  },
+  {
+    "question": "Which operator is used to spread arrays?",
+    "options": [
+      "...",
+      "==",
+      "=>",
+      "::"
+    ],
+    "answer": "..."
+  },
+  {
+    "question": "Which keyword declares constant in JS?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "answer": "const"
+  },
+  {
+    "question": "Which keyword is used for async functions?",
+    "options": [
+      "sync",
+      "await",
+      "async",
+      "promise"
+    ],
+    "answer": "async"
+  },
+  {
+    "question": "Which method handles promises?",
+    "options": [
+      "then()",
+      "catch()",
+      "finally()",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which data format is used in APIs?",
+    "options": [
+      "XML",
+      "JSON",
+      "CSV",
+      "TEXT"
+    ],
+    "answer": "JSON"
+  },
+  {
+    "question": "Which React Router component handles routing?",
+    "options": [
+      "Route",
+      "Link",
+      "Router",
+      "Switch"
+    ],
+    "answer": "Route"
+  },
+  {
+    "question": "Which hook accesses URL params?",
+    "options": [
+      "useState",
+      "useParams",
+      "useEffect",
+      "useRouter"
+    ],
+    "answer": "useParams"
+  },
+  {
+    "question": "Which command installs packages?",
+    "options": [
+      "npm get",
+      "npm build",
+      "npm install",
+      "npm run"
+    ],
+    "answer": "npm install"
+  },
+  {
+    "question": "Which file stores dependencies?",
+    "options": [
+      "index.js",
+      "package.json",
+      "server.js",
+      "config.js"
+    ],
+    "answer": "package.json"
+  },
+  {
+    "question": "Which database is NoSQL?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "Which React hook shares global state?",
+    "options": [
+      "useState",
+      "useContext",
+      "useMemo",
+      "useRef"
+    ],
+    "answer": "useContext"
+  },
+  {
+    "question": "Which encryption library is popular in Node.js?",
+    "options": [
+      "bcrypt",
+      "cryptojs",
+      "hashlib",
+      "securejs"
+    ],
+    "answer": "bcrypt"
+  },
+  {
+    "question": "Which auth format is commonly used?",
+    "options": [
+      "Session",
+      "Cookies",
+      "JWT",
+      "Headers"
+    ],
+    "answer": "JWT"
+  },
+  {
+    "question": "Which statement exports a module?",
+    "options": [
+      "export default",
+      "module.get",
+      "require",
+      "import only"
+    ],
+    "answer": "export default"
+  },
+  {
+    "question": "Which tool bundles frontend apps?",
+    "options": [
+      "Webpack",
+      "Node",
+      "Mongo",
+      "Express"
+    ],
+    "answer": "Webpack"
+  },
+  {
+    "question": "Which lifecycle hook runs once?",
+    "options": [
+      "useEffect([])",
+      "useState()",
+      "useMemo()",
+      "useRef()"
+    ],
+    "answer": "useEffect([])"
+  },
+  {
+    "question": "Which port does MongoDB use by default?",
+    "options": [
+      "3000",
+      "8000",
+      "27017",
+      "4200"
+    ],
+    "answer": "27017"
+  },
+  {
+    "question": "Which port does React use by default?",
+    "options": [
+      "3000",
+      "27017",
+      "8080",
+      "4200"
+    ],
+    "answer": "3000"
+  },
+  {
+    "question": "Which command starts Node server?",
+    "options": [
+      "node app.js",
+      "npm install",
+      "npm build",
+      "npm init"
+    ],
+    "answer": "node app.js"
+  },
+  {
+    "question": "Which tool restarts server automatically?",
+    "options": [
+      "nodemon",
+      "npm",
+      "node",
+      "pm2"
+    ],
+    "answer": "nodemon"
+  },
+  {
+    "question": "Which CSS framework is utility-first?",
+    "options": [
+      "Bootstrap",
+      "Material UI",
+      "Tailwind CSS",
+      "Ant Design"
+    ],
+    "answer": "Tailwind CSS"
+  },
+  {
+    "question": "Which tag is used for React fragments?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<React.Fragment>",
+      "<section>"
+    ],
+    "answer": "<React.Fragment>"
+  },
+  {
+    "question": "Which function converts JSON to object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.object()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "What is the capital of India?",
+    "options": [
+      "Mumbai",
+      "Delhi",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answer": "Delhi"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "question": "How many days are there in a leap year?",
+    "options": [
+      "365",
+      "366",
+      "364",
+      "360"
+    ],
+    "answer": "366"
+  },
+  {
+    "question": "Which animal is called the King of the Jungle?",
+    "options": [
+      "Tiger",
+      "Elephant",
+      "Lion",
+      "Bear"
+    ],
+    "answer": "Lion"
+  },
+  {
+    "question": "What is 5 + 7?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": [
+      "Newton",
+      "Edison",
+      "Alexander Graham Bell",
+      "Tesla"
+    ],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "question": "Which color is made by mixing red and white?",
+    "options": [
+      "Pink",
+      "Purple",
+      "Orange",
+      "Brown"
+    ],
+    "answer": "Pink"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "Which is the largest ocean?",
+    "options": [
+      "Indian",
+      "Atlantic",
+      "Pacific",
+      "Arctic"
+    ],
+    "answer": "Pacific"
+  },
+  {
+    "question": "Which month has 28 days?",
+    "options": [
+      "February",
+      "All months",
+      "January",
+      "Only leap year Feb"
+    ],
+    "answer": "All months"
+  },
+  {
+    "question": "What do bees collect?",
+    "options": [
+      "Honey",
+      "Milk",
+      "Water",
+      "Sugar"
+    ],
+    "answer": "Honey"
+  },
+  {
+    "question": "Which game is played with a bat and ball?",
+    "options": [
+      "Football",
+      "Cricket",
+      "Hockey",
+      "Chess"
+    ],
+    "answer": "Cricket"
+  },
+  {
+    "question": "Which device is used to take photos?",
+    "options": [
+      "Printer",
+      "Scanner",
+      "Camera",
+      "Router"
+    ],
+    "answer": "Camera"
+  },
+  {
+    "question": "Which festival is known as the festival of lights?",
+    "options": [
+      "Holi",
+      "Diwali",
+      "Eid",
+      "Christmas"
+    ],
+    "answer": "Diwali"
+  },
+  {
+    "question": "What is the freezing point of water?",
+    "options": [
+      "0°C",
+      "50°C",
+      "100°C",
+      "10°C"
+    ],
+    "answer": "0°C"
+  },
+  {
+    "question": "Which shape has three sides?",
+    "options": [
+      "Square",
+      "Triangle",
+      "Circle",
+      "Rectangle"
+    ],
+    "answer": "Triangle"
+  },
+  {
+    "question": "Which gas do humans need to breathe?",
+    "options": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Helium"
+    ],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "How many hours are there in one day?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "answer": "24"
+  },
+  {
+    "question": "Which fruit is yellow in color?",
+    "options": [
+      "Apple",
+      "Grapes",
+      "Banana",
+      "Strawberry"
+    ],
+    "answer": "Banana"
+  },
+  {
+    "question": "Which animal gives us milk?",
+    "options": [
+      "Dog",
+      "Cat",
+      "Cow",
+      "Lion"
+    ],
+    "answer": "Cow"
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": [
+      "Lion",
+      "Horse",
+      "Cheetah",
+      "Dog"
+    ],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": [
+      "Tennis",
+      "Badminton",
+      "Cricket",
+      "Football"
+    ],
+    "answer": "Badminton"
+  },
+  {
+    "question": "Which day comes after Friday?",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Saturday",
+      "Thursday"
+    ],
+    "answer": "Saturday"
+  },
+  {
+    "question": "Which is the smallest finger?",
+    "options": [
+      "Thumb",
+      "Index",
+      "Little",
+      "Middle"
+    ],
+    "answer": "Little"
+  },
+  {
+    "question": "Which vehicle runs on tracks?",
+    "options": [
+      "Bus",
+      "Train",
+      "Car",
+      "Bike"
+    ],
+    "answer": "Train"
+  },
+  {
+    "question": "What is used to write on a blackboard?",
+    "options": [
+      "Pen",
+      "Chalk",
+      "Pencil",
+      "Marker"
+    ],
+    "answer": "Chalk"
+  },
+  {
+    "question": "Which tool is used to cut paper?",
+    "options": [
+      "Hammer",
+      "Screwdriver",
+      "Scissors",
+      "Wrench"
+    ],
+    "answer": "Scissors"
+  },
+  {
+    "question": "Which season is the coldest?",
+    "options": [
+      "Summer",
+      "Winter",
+      "Rainy",
+      "Spring"
+    ],
+    "answer": "Winter"
+  },
+  {
+    "question": "Which organ pumps blood in the body?",
+    "options": [
+      "Lungs",
+      "Brain",
+      "Heart",
+      "Liver"
+    ],
+    "answer": "Heart"
+  },
+  {
+    "question": "What do you use to open a lock?",
+    "options": [
+      "Key",
+      "Pin",
+      "Stick",
+      "Stone"
+    ],
+    "answer": "Key"
+  },
+  {
+    "question": "Which animal lives in water?",
+    "options": [
+      "Dog",
+      "Fish",
+      "Cow",
+      "Horse"
+    ],
+    "answer": "Fish"
+  },
+  {
+    "question": "Which is the tallest animal?",
+    "options": [
+      "Elephant",
+      "Giraffe",
+      "Camel",
+      "Horse"
+    ],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Which food is made from milk?",
+    "options": [
+      "Rice",
+      "Butter",
+      "Wheat",
+      "Apple"
+    ],
+    "answer": "Butter"
+  },
+  {
+    "question": "Which sense organ is used to see?",
+    "options": [
+      "Ear",
+      "Nose",
+      "Eye",
+      "Skin"
+    ],
+    "answer": "Eye"
+  },
+  {
+    "question": "Which is the main source of energy for Earth?",
+    "options": [
+      "Moon",
+      "Sun",
+      "Stars",
+      "Wind"
+    ],
+    "answer": "Sun"
+  },
+  {
+    "question": "Which shape is a ball?",
+    "options": [
+      "Cube",
+      "Cuboid",
+      "Sphere",
+      "Cylinder"
+    ],
+    "answer": "Sphere"
+  },
+  {
+    "question": "Which animal is known for its slow movement?",
+    "options": [
+      "Rabbit",
+      "Cheetah",
+      "Turtle",
+      "Dog"
+    ],
+    "answer": "Turtle"
+  },
+  {
+    "question": "Which drink is made from tea leaves?",
+    "options": [
+      "Coffee",
+      "Tea",
+      "Milk",
+      "Juice"
+    ],
+    "answer": "Tea"
+  },
+  {
+    "question": "Which object tells time?",
+    "options": [
+      "Scale",
+      "Clock",
+      "Eraser",
+      "Book"
+    ],
+    "answer": "Clock"
+  },
+  {
+    "question": "Which place is used to study?",
+    "options": [
+      "Hospital",
+      "School",
+      "Market",
+      "Park"
+    ],
+    "answer": "School"
+  },
+  {
+    "question": "Which instrument is used to measure temperature?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Speedometer",
+      "Altimeter"
+    ],
+    "answer": "Thermometer"
+  },
+  {
+    "question": "Which mode of transport flies in the air?",
+    "options": [
+      "Car",
+      "Train",
+      "Ship",
+      "Aeroplane"
+    ],
+    "answer": "Aeroplane"
+  },
+  {
+    "question": "Which object is used to clean the floor?",
+    "options": [
+      "Broom",
+      "Knife",
+      "Plate",
+      "Book"
+    ],
+    "answer": "Broom"
+  },
+  {
+    "question": "Which festival is celebrated on 25th December?",
+    "options": [
+      "Diwali",
+      "Eid",
+      "Christmas",
+      "Holi"
+    ],
+    "answer": "Christmas"
+  },
+  {
+    "question": "Which tool is used to tighten screws?",
+    "options": [
+      "Hammer",
+      "Screwdriver",
+      "Knife",
+      "Scissors"
+    ],
+    "answer": "Screwdriver"
+  }
+]
