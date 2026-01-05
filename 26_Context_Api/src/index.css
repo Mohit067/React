@@ -1,0 +1,13 @@
+@import "tailwindcss";
+#root,body{
+    background: gray;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+    font-size:larger;
+}
