@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import Wrapper from "../components/Wrapper";
-import api from "../config/axios";
 import { useNewsContext } from "../context/NewsContext";
-
+import Loader from '../components/Loader'
 const News = () => {
-  const { news, setNews, fetchData } = useNewsContext();
+  const { news, setNews, fetchData, loading } = useNewsContext();
 
   useEffect(() => {
     (async() => {
@@ -13,7 +12,9 @@ const News = () => {
     })()
   },[]);
 
-  console.log(news);
+  if(loading) return <Loader />
+
+  // console.log(news);
   return (
     <div className="my-4">
       <Wrapper>
@@ -27,9 +28,9 @@ const News = () => {
       </Wrapper>
     </div>
   );
-};
+}; 
 
-const NewsCard = ({details}) => {
+export const NewsCard = ({details}) => {
   // console.log(details.content);
   return (
     <div className="card bg-base-100 shadow-sm">
